@@ -18,7 +18,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
-    org.cyanogenmod.platform.sdk \
+    org.mokee.platform.sdk \
     android-support-v4 \
     android-support-v13 \
     gson

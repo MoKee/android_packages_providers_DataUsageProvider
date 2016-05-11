@@ -41,9 +41,9 @@ limitations under the License.
         </service>
 
         <provider android:name=".DataUsageProvider"
-                  android:authorities="org.cyanogenmod.providers.datausage"
-                  android:readPermission="cyanogenmod.permission.READ_DATAUSAGE"
-                  android:writePermission="cyanogenmod.permission.WRITE_DATAUSAGE"
+                  android:authorities="org.mokee.providers.datausage"
+                  android:readPermission="mokee.permission.READ_DATAUSAGE"
+                  android:writePermission="mokee.permission.WRITE_DATAUSAGE"
                   android:exported="true">
         </provider>
 

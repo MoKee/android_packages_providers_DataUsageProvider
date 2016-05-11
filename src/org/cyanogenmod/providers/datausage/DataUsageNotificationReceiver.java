@@ -27,7 +27,7 @@ import android.widget.Toast;
 import android.net.NetworkPolicyManager;
 import static android.net.NetworkPolicyManager.POLICY_REJECT_ON_DATA;
 
-import cyanogenmod.providers.DataUsageContract;
+import mokee.providers.DataUsageContract;
 
 
 /**
