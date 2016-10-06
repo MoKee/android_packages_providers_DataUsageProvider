@@ -60,8 +60,8 @@ import android.content.pm.UserInfo;
 import android.util.SparseArray;
 import com.google.gson.Gson;
 
-import cyanogenmod.providers.DataUsageContract;
-import cyanogenmod.providers.CMSettings;
+import mokee.providers.DataUsageContract;
+import mokee.providers.MKSettings;
 
 
 /**
@@ -512,7 +512,7 @@ public class DataUsageService extends IntentService {
         );
 
         Intent dataUsageIntent = new Intent();
-        dataUsageIntent.setAction(cyanogenmod.providers.CMSettings.ACTION_DATA_USAGE);
+        dataUsageIntent.setAction(mokee.providers.MKSettings.ACTION_DATA_USAGE);
         dataUsageIntent.addCategory(Intent.CATEGORY_DEFAULT);
         dataUsageIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         dataUsageIntent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);

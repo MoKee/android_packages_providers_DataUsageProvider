@@ -28,7 +28,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.util.Log;
 
-import cyanogenmod.providers.DataUsageContract;
+import mokee.providers.DataUsageContract;
 
 
 public final class DataUsageUtils {

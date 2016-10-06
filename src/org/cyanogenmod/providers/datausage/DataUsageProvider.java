@@ -29,7 +29,7 @@ import android.net.Uri;
 import android.provider.ContactsContract;
 import android.util.Log;
 
-import cyanogenmod.providers.DataUsageContract;
+import mokee.providers.DataUsageContract;
 
 /**
  * ContentProvider for the DataUsage statistics gathering of the Settings App
